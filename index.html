@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" type="text/css" href="/1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="flipclock.css">
+    <link rel="stylesheet" href="1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <div class="content" >
+          <div class="logo">
+            <img src="../image/logo.png"  alt="logo" >
+            <h2><b>стройкабель</b></h2>
+          </div>
+          <div class="dostavka">
+            <p>Кабель по цене производителя с бесплатной доставкой по Перми</p>
+          </div>
+          <div class="phone">
+            <p>Звоните нам прямо сейчас:</p>
+            <div>
+              <a href="tel:834227429322">8 (342) 274-29-322</a>
+            </div>
+            <div>
+              <a href="tel:834227429322">8 (342) 274-29-322</a>
+            </div>
+            <div class="phone__inner" >
+              <a href="#" class="call" data-modal="delivery">Срочный заказ</a>
+              <form id="demo-form" data-parsley-validate="">
+              <div class="modal js-modal  modal-delivery" data-modal="delivery">
+                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+              <div class="title-modal">
+                <p class="title">Напишите Ваше имя и телефон и мы перезвоним в течении 15 минут</p>
+              </div>
+              <div class="text-input">
+                <input type="text" id="input1" placeholder="Ваше имя" required="" class="form-control" name="fullname">
+              </div>
+              <div class="text-input">
+                <input type="text" id="input2" placeholder="Ваша фамилия" required="">
+              </div>
+              <div class="otp">
+                <input type="submit" class="btn btn-default" value="Отправить" data-modal="return">                
+              </div>
+              <div class="polit">
+                <a href="#">Политика конфиденциальности</a>
+              </div>
+            </div>
+              <div class="overlay js-modal-overlay"></div>
+            </form>
+            <div class=" modal js-modal modal-return" data-modal="return">
+              <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+              <p class="title">Спасибо! Ваша заявка принята в обработку!</p>
+            </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <nav>
+      <div class="content" data-aos="fade-right" data-aos-delay="300">
+        <a href="#">Главная</a>
+        <a href="#">Вся продукция</a>
+        <a href="#">О нас</a>
+        <a href="#">Полезная информация</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Контакты</a>   
+      </div>
+    </nav>
+    <main>
+      <h1>Магазин по продаже кабеля</h1>
+      <div class ="price">
+        <a href="#">Скачать прайс</a>
+      </div>
+      <div class="swiper-container"  data-aos="fade-right" data-aos-delay="300">
+        <div class="swiper-wrapper">
+          <div class ="swiper-slide">
+            <div class ="slider1">
+              <img src="../image/s1.png" alt="Otmotka luboy dliny">
+              <h2>Отмотка любой длины в бухту или на барабан</h2>
+              <p>Отмотка любой длины в бухту или на барабан</p>
+              <a href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class ="slider1">
+              <img src="../image/s2.png" alt="Asortiment">
+              <h2>Широкий ассортимент кабеля на складе</h2>
+              <p>Широкий ассортимент кабеля на складе</p>
+              <a href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class ="slider1">
+              <img src="../image/s3.png" alt="Skidki">
+              <h2 class="p">Гибкая система скидок</h2>
+              <p>Гибкая система скидок</p>
+              <a href="#">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-scrollbar"></div>
+      </div>
+        <div class="pooular" data-aos="fade-right" data-aos-delay="200">
+          <div class="container">
+            <h2 class="pooular-title"><span>Популярная продукция</span></h2>
+            <div class="pooular-list">
+              <div class="pooular-item">
+                <a href="#"><img src="../image/provoda.png" alt="Kabel gerda"></a>
+                  <a href="#">Кабель Герда</a>
+                </div>
+                <div class="pooular-item">
+                  <a href="#"><img src="../image/provoda.png" alt="Kabel gerda"></a>
+                  <a href="#">Кабель Герда</a>
+                </div>
+                <div class="pooular-item">
+                  <a href="#"><img src="../image/provoda.png" alt="Kabel gerda"></a>
+                  <a href="#">Кабель Герда</a>
+                </div>
+                <div class="pooular-item">
+                  <a href="#"><img src="../image/provoda.png" alt="Kabel gerda"></a>
+                  <a href="#">Кабель Герда</a>
+                </div>
+                <div class="pooular-item">
+                  <a href="#"><img src="../image/provoda.png" alt="Kabel gerda"></a>
+                  <a href="#">Кабель Герда</a>
+                </div>
+            </div> 
+          </div> 
+        </div>  
+      <div class = "advantages" data-aos="fade-down" data-aos-delay="200" >
+        <div class="container">
+          <h2 class="advantages-title"><span>Почему 1563 клиента уже выбрали нас</span></h2>
+          <div class="advantages-list">
+            <div class="advantages-item">
+              <img src="../image/rasrochka.png" alt="Rasrochka">
+              <a href="#">Возможность отсрочки платежа</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/telega.png" alt="Telega">
+              <a href="#">Работаем с любыми объемами под заказ</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/bumaga.png" alt="Bumaga">
+                <a href="#">Предоставляет полный перечень документов на кабельную продукцию</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/saray.png" alt="Saray">
+              <a href="#">У нас есть свой склад</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/krug.png" alt="Krug">
+              <a href="#">Гарантия самой низкой цены на продукцию</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/chel.png" alt="Chel">
+                <a href="#">Напрямую от производителя</a>
+              </div>
+            <div class="advantages-item">
+              <img src="../image/krta.png" alt="Karta">
+              <a href="#">Наличный и безналичный расчет</a>
+            </div>
+            <div class="advantages-item">
+              <img src="../image/car.png" alt="Car">
+              <a href="#">Бесплатная доставка по городу при заказе от 20 тыс. рублей</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class ="partnety" data-aos="zoom-in" data-aos-delay="200">
+        <h2 class="pooular-title"><span>С нами уже работают</span></h2> 
+      </div>
+      <div class="swiper-container1" data-aos="zoom-in" data-aos-delay="200">
+        <div class="swiper-wrapper">
+          <div class ="swiper-slide">
+            <div class="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+          <div class ="swiper-slide">
+            <div class="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+          <div class ="swiper-slide">
+            <div class ="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+          <div class ="swiper-slide">
+            <div class ="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+          <div class ="swiper-slide">
+            <div class ="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+          <div class ="swiper-slide">
+            <div class ="sli2">
+              <a href="#"><img src="../image/megafon.png" alt="Megafon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev-m"></div>
+        <div class="swiper-button-next-m"></div>
+      </div>
+      <div class ="zakaz" data-aos="fade-up" data-aos-delay="200">
+        <h2>Крутой оффер, от которого глупо отказаться</h2>
+        <div class="zakazitem">
+          <a href="#">Сделать заказ</a>
+        </div>
+      </div>
+      <div class ="scet" data-aos="flip-left" data-aos-delay="300" >
+        <h2>Приобрели у нас метров кабеля:</h2>
+        <div class="clock"> 
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="content" data-aos="zoom-in-left" data-aos-delay="200">
+        <div class="logo">
+          <img src="../image/logo.png"  alt="logo" >
+          <h2>стройкабель</h2>
+        </div>
+        <div class="dostavka">
+          <p>Кабель по цене производителя с бесплатной доставкой по Перми</p>
+        </div>
+        <div class="phone">
+          <p>Звоните нам прямо сейчас:</p>
+          <div>
+            <a href="tel:834227429322">8 (342) 274-29-322</a>
+          </div>
+          <div>
+            <a href="tel:834227429322">8 (342) 274-29-322</a>
+          </div>
+          <div class="phone__inner">
+            <a href="#" class="call">Срочный заказ</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="content2" >
+        <div class ="razrab">
+          <img src = "../image/razrab.png" alt="Razrabotchik"> 
+          <p>Разработка сайта</p>
+        </div>
+        <div class="poli">
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+        <div>
+          <p>Все права защищены, 2014 год.</p>
+        </div>
+      </div>
+    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="parsley.min.js"></script>
+<script src="/flipclock.min.js"></script> 
+<script src="1.js"></script> 
+</body>
+</html>
